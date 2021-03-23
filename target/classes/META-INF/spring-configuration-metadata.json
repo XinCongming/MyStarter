@@ -1,0 +1,44 @@
+{
+  "groups": [
+    {
+      "name": "xin.redisson",
+      "type": "com.xin.redisson.RedissonProperties",
+      "sourceType": "com.xin.redisson.RedissonProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "xin.redisson.host",
+      "type": "java.lang.String",
+      "description": "redis的服务器地址",
+      "sourceType": "com.xin.redisson.RedissonProperties",
+      "defaultValue": "localhost"
+    },
+    {
+      "name": "xin.redisson.password",
+      "type": "java.lang.String",
+      "description": "redis服务器的密码",
+      "sourceType": "com.xin.redisson.RedissonProperties"
+    },
+    {
+      "name": "xin.redisson.port",
+      "type": "java.lang.Integer",
+      "description": "redis服务器的端口",
+      "sourceType": "com.xin.redisson.RedissonProperties",
+      "defaultValue": 6379
+    },
+    {
+      "name": "xin.redisson.ssl",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.xin.redisson.RedissonProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "xin.redisson.timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.xin.redisson.RedissonProperties",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}
